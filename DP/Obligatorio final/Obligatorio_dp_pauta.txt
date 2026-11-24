@@ -1,0 +1,13 @@
+
+Tu propio modelo, sobre tu propio problema
+
+El obligatorio vale como examen del curso. Consiste en elegir un problema que les interese de verdad, idealmente uno de su propia investigación o de su campo, y entrenar un modelo de deep learning sobre datos de ese problema. Algunos ejemplos: clasificar discursos, notas de prensa, respuestas abiertas de encuestas, tuits o imágenes, o medir algo en un corpus que les importe. No buscamos el modelo más preciso. Buscamos ver que entienden qué están entrenando, por qué eligieron esa arquitectura y qué está midiendo el modelo en realidad. Pueden construir el modelo desde cero, con las herramientas de las clases 1 a 9 (una red densa, una convolucional, embeddings, attention, un mini-GPT), o partir de un modelo pre-entrenado y adaptarlo, como veremos en la clase 10. En los dos casos tiene que haber entrenamiento de verdad sobre sus datos, con una partición de entrenamiento y validación como la de la clase 5.
+
+Hay dos cosas para entregar. La primera es el código, en un notebook de Google Colab compartido con johannsw@gmail.com. Tiene que correr de punta a punta y estar comentado lo suficiente para que otra persona entienda cada paso: de dónde salen los datos, cómo se preparan, qué modelo se arma, cómo se entrena y cómo se evalúa. La segunda es una presentación oral de 10 a 15 minutos en fecha a coordinar previo al 11 de Diciembre. Los trabajos de código se pueden trabajar en grupos de hasta dos personas pero las presentaciones serán individuales y serán la mayor parte de los puntos de evaluación.
+
+La presentación tiene que contar tres cosas. Primero, cómo diseñaron la solución: qué problema eligieron, qué datos usaron y por qué la arquitectura que eligieron encaja con la forma de esos datos ("la forma de los datos manda"). Segundo, qué problemas tuvieron: sobreajuste, pocos datos, clases desbalanceadas, una loss que no bajaba, un modelo que aprendió un atajo en lugar de lo que querían medir. Los tropiezos bien contados valen tanto como los resultados. Tercero, qué caminos ven para seguir el trabajo, relacionados con lo que vimos en el curso: cambiar la arquitectura, usar un modelo pre-entrenado, conseguir más datos, o validar mejor que lo que mide es lo que dicen que mide.
+
+Próximamente agregaremos material adicional que puede servir de resumen a lo construido durante el curso. Pueden contactarme a johannsw@gmail.com si necesitan ayuda para conseguir datos o validar ideas de problemas a atacar.
+
+Sobre el uso de IA: Es esperado que usen IA para generar código en esta entrega, por eso existe la presentación, para demostrar que entendieron los fundamentos detrás de lo que generaron y entregaron.
+

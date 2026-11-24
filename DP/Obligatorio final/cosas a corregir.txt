@@ -1,0 +1,13 @@
+- imágenes cualquiera para el test: perro, paisaje, selfie, etc
+- más recibos reales, que no sean brou
+- justificar loss -- crossentropy
+- ninguno de los modelos vió recibos de sueldo, el modelo sabría responder: Cual NO es un recibo de sueldo?
+- aciertos en validación menores al 50%, mejor usar el modelo tonto?
+- justificar por qué la loss validation sube
+- F1
+- anglo2, genérico y genérico 2 son recibos que no se utilizaron como plantilla para el generador --> diseño no visto pasan a ser 8 en vez de 5
+- el recibo real bps NO es un recibo (parece recibo incompleto) --> un nuevo caso difícil
+
+- Se van: sección 13, sección 10
+
+- punteo de conceptos a tener claro en la presentación con el profe
